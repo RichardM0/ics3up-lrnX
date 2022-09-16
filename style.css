@@ -1,0 +1,54 @@
+/*colour palette!
+#2b6777
+#c8d8e4
+#ffffff
+#f2f2f2
+#52ab98
+/* pgtitle */
+#pgtitle{
+    font-weight:bold;
+    text-align:left;
+    color:#5bccf6;
+    font-size:48px;
+    text-align: center;
+}
+hr{
+  border-top:3px solid #000000;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#f2f2f2;
+    overflow: hidden;
+    float:center;
+}
+.topnav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #cc5607;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-center {
+  float: center;
+}
