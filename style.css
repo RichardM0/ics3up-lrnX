@@ -4,41 +4,47 @@
 #ffffff
 #f2f2f2
 #52ab98
-/* pgtitle */
+/* page gtitle */
+
 #pgtitle{
     font-weight:bold;
     text-align:left;
     color:#5bccf6;
     font-size:48px;
-    text-align: center;
+    text-align: left;
+    margin:60px 125px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*description under page*/
+#pgdescription{
+  font-size:21px;
 }
 
-hr{
-  border-top:3px solid #000000;
+/* make the navbar at the very top*/
+body {
+  margin:0px;
 }
-
-/* Add a black background color to the top navigation */
-body{
+head{
   margin:0px;
 }
 
-
-
+/* navbar*/
 .topnav {
     background-color:#f2f2f2;
     overflow: hidden;
-    float:center;
+    text-align:center;
+    padding: 24px 15px;
 
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   color: #000000;
   text-align: center;
-  padding: 22px 15px;
+  padding: 20px 15px;
   text-decoration: none;
   font-size: 24px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -51,9 +57,9 @@ body{
 .topnav a.active {
   background-color: #000000;
   color: white;
+  
 }
 
+
+
 /* Right-aligned section inside the top navigation */
-.topnav-center {
-  float: center;
-}
