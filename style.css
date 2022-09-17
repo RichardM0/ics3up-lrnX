@@ -12,19 +12,23 @@
     font-size:48px;
     text-align: center;
 }
+
 hr{
   border-top:3px solid #000000;
 }
 
 /* Add a black background color to the top navigation */
+body{
+  margin:0px;
+}
+
+
+
 .topnav {
     background-color:#f2f2f2;
     overflow: hidden;
     float:center;
-}
-.topnav ul {
-  display: inline-block;
-  list-style-type: none;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -32,9 +36,10 @@ hr{
   float: left;
   color: #000000;
   text-align: center;
-  padding: 20px 15px;
+  padding: 22px 15px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
+
 }
 
 /* Change the color of links on hover */
