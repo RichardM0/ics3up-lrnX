@@ -12,9 +12,10 @@
     font-size: 30px;
 }
 .item-1{
-    grid-column-start:1;
-    grid-column-end:0;   
+    grid-column-start:0;
+    grid-column-end:2;   
     margin:0px -90px; 
+    text-align:center;
 }
 .item-2{
     height:10px;
