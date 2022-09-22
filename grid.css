@@ -2,6 +2,7 @@
     display: grid;
     gap:10px;
     grid-template-columns: auto auto auto;
+    column-gap:10px;
 }
 
 .grid-container > div {
@@ -16,8 +17,10 @@
     grid-column:1;
 }
 .item-2{
-    height:10px;
+    grid-column:2;
+    background-color:#52ab98;
 }
+
 .item-3{
     grid-column-start:1;
     grid-column-end:1;
