@@ -5,19 +5,34 @@
 #f2f2f2
 #52ab98
 /* page gtitle */
+menu{
+  background-color:#f2f2f2;
+  margin:-5px 0px 0px 0px;
+}
+.test{
+  color:
+  #2b6777
+  #c8d8e4
+  #ffffff
+  #f2f2f2
+  #52ab98
+  #5bccf6;
+
+}
 
 #pgtitle{
     font-weight:bold;
     text-align:left;
     color:#5bccf6;
-    font-size:48px;
-    text-align: left;
-    margin:60px 125px;
+    font-size:56px;
+    text-align:center;
+    margin:85px 100px 0px 55px;
+    padding:0px 0px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /*description under page*/
 #pgdescription{
-  font-size:14px;
+  font-size:18px;
   margin:40px;
   
 }
@@ -25,15 +40,15 @@
 /* make the navbar at the very top*/
 body {
   margin:0px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 head{
   margin:0px;
 }
-.pgdesc{
-  
-  width:20px;
-  max-width:20px; 
-  display: inline-block;
+
+.page-body{
+  margin:0px;
+
 }
 
 /* navbar*/
@@ -58,7 +73,7 @@ head{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: #cc5607;
+  color:#2b6777;
 }
 
 /* Add a color to the active/current link */
@@ -68,7 +83,14 @@ head{
   
 }
 
+.page-body tr td p{
+  text-align:center;
+  font-size:16px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.page-body, tr, td, p, ul, li{
+  text-align:center;
+  margin:5px 50px 10px 10px;
 
-
-
+}
 /* Right-aligned section inside the top navigation */
