@@ -22,12 +22,8 @@ menu{
 
 #pgtitle{
     font-weight:bold;
-    text-align:left;
     color:#5bccf6;
     font-size:56px;
-    text-align:center;
-    margin:85px 100px 0px 55px;
-    padding:0px 0px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /*description under page*/
@@ -47,9 +43,11 @@ head{
 }
 
 .page-body{
-  margin:0px;
+  font-size:24px;
 
 }
+
+
 
 /* navbar*/
 .topnav {
@@ -81,16 +79,5 @@ head{
   background-color: #000000;
   color: white;
   
-}
-
-.page-body tr td p{
-  text-align:center;
-  font-size:16px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.page-body, tr, td, p, ul, li{
-  text-align:center;
-  margin:5px 50px 10px 10px;
-
 }
 /* Right-aligned section inside the top navigation */
