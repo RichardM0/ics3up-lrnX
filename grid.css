@@ -3,24 +3,22 @@
     height:100%;
     display: grid;
     gap:10px;
-    grid-template-columns: 720px auto;
+    grid-template-columns: 520px auto;
     column-gap:0px;
 }
 
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color:#f2f2f2;
     text-align: center;
     font-size: 30px;
 }
 .item-1{
-    grid-column-start:0;
-    grid-column-end:2;   
     text-align:center;
     grid-column:1;
 }
 .item-2{
     grid-column:2;
-    background-color:#52ab98;
+    background-color:#eeeeee;
 }
 
 .item-3{
