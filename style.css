@@ -19,7 +19,21 @@ menu{
   #5bccf6;
 
 }
+#davidmalan-left-img{
+  position:relative;
+  top:100px;
+  right:150px;
+  box-shadow: 10px 10px 12px;
 
+
+}
+div #shadowed-border p{
+  position: relative;
+  left: 10px;
+  text-align:left; 
+  font-size:21px;
+  margin-top:10px;
+}
 #pgtitle{
     margin:75px 0px 0px 0px;
     font-weight:bold;
@@ -83,8 +97,27 @@ head{
   
 }
 /* Right-aligned section inside the top navigation */
-#shadowed-border{
-  margin:50px 0px 0px 75px;
+#shadowed-border-title{
+  position: absolute;
+  left:100px;
+  top:110px;
+  width: 400px;
+  height: 125px;
+  padding: 15px;
+  background-color:white;
+  box-shadow: 5px 5px 12px;
+  
+}
+#shadowed-border-title-description{
+  margin-top:8px;
+  margin-left:15px;
+  font-size:22px;
+  text-align:left;
+}
+#shadowed-border-courses{
+  position: absolute;
+  right:100px;
+  top:110px;
   width: 400px;
   height: 100px;
   padding: 15px;
